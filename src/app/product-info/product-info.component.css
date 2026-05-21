@@ -1,0 +1,9 @@
+img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}

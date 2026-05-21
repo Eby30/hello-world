@@ -1,0 +1,26 @@
+<h2>{{ productName }}</h2>
+
+<p>Price: ₹{{ productPrice }}</p>
+
+<img
+  [src]="productImage"
+  alt="Product Image"
+  width="250"
+  height="180"
+/>
+
+<br><br>
+
+<button (click)="addToCart(productName)">
+  Add to Cart
+</button>
+
+<br><br>
+
+<input
+  type="text"
+  [(ngModel)]="review"
+  placeholder="Write your review"
+/>
+
+<p>Your Review: {{ review }}</p>
