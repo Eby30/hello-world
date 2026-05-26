@@ -7,12 +7,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { RegistrationComponent } from './registration/registration.component';
+import { ProfilecardComponent } from './profilecard/profilecard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    ProfilecardComponent
   ],
 
   imports: [
