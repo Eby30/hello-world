@@ -1,24 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { MyComponentComponent } from './my-component/my-component.component';
 import { FormsModule } from '@angular/forms';
-import { StudentProfileComponent } from './student-profile/student-profile.component';
-import { ProductInfoComponent } from './product-info/product-info.component';
+
+import { AppComponent } from './app.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyComponentComponent,
-    StudentProfileComponent,
-    ProductInfoComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    AppRoutingModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
